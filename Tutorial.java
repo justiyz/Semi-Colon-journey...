@@ -171,7 +171,7 @@ public class Tutorial {
 		*/
 		
 		
-		int numOfRows = 31;
+/*		int numOfRows = 31;
 		int numOfSpace = numOfRows/2;
 		int numOfStars = 1;
 		int midPoint = numOfRows/2 +1 ;
@@ -192,6 +192,17 @@ public class Tutorial {
 			}
 			System.out.println();
 		}
+		*/
+//PRINTING KITE LOOKING ASTERISKS
+		
+		
+		int [] array = {87, 68, 94, 100, 83, 78, 85, 91, 76, 87};
+		int total = 0;
+		
+		for (int counter = 0; counter < array.length; counter++ ) {
+			total = total += array[counter];
+		}
+		System.out.printf("Total number of array elememts is : %d\n ", total);
 		
 		
 		

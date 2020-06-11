@@ -1,10 +1,10 @@
 
 public class CommissionEmployee extends Object {
-	protected final String firstName;
-	protected final String lastName;
-	protected final String socialSecurityNumber;
-	protected double grossSales;
-	protected double commissionRate;
+	private final String firstName;
+	private final String lastName;
+	private final String socialSecurityNumber;
+	private double grossSales;
+	private double commissionRate;
 	
 	public CommissionEmployee(String firstName, String lastName, 
 			String socialSecurityNumber, double grossSales, double commissionRate)
