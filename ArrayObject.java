@@ -161,7 +161,7 @@ public class ArrayObject {
 		
 		
 		
-	/*	int [][]  array1= {{1,2,3}, {4,5,6}};
+		int [][]  array1= {{1,2,3}, {4,5,6}};
 		int [][]  array2 = {{1,2}, {3}, {4,5,6}};
 		System.out.println("Values in array1 by rows are");
 		outputArray(array1);
@@ -184,7 +184,7 @@ public class ArrayObject {
 				for(int column = 0; column < array[row].length; column++)
 					System.out.printf("%d", array[row][column]);
 				System.out.println();
-			}*/
+			}
 		
 		
 		
@@ -194,8 +194,9 @@ public class ArrayObject {
 		
 		
 			
-			}
+			
 		}
+}
 		
 		
 		

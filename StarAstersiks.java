@@ -3,7 +3,7 @@ public class StarAstersiks {
 
 	public static void main(String[] args) {
 		
-		 int row = 9;
+		 int row = 27;
 		 int star = 1;
 		 int space = row / 2;
 		 int midPoint = row / 2 + 1;
