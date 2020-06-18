@@ -1,7 +1,7 @@
 import java.util.*;
 public class Bank {
 
-	 String n;
+	 	String n;
 	    String add;
 	    int an;
 	    int bal;
