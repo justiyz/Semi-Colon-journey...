@@ -16,11 +16,12 @@ public class SalesCommisionCalculator {
 			sum += itemSold;
 			salesPersonEarnings =   sum * 0.09 + 200;
 			System.out.printf("The sum of items in naira is %.2f%n", sum);
+			System.out.println();
 			
 			 itemSold = input.nextDouble();
 		}
 		
-		System.out.printf("The sales person earnings in naira %.2f%n", salesPersonEarnings);
+		System.out.printf("The sales person earnings in naira is %.2f%n", salesPersonEarnings);
 		
 		
 		
