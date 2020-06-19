@@ -4,7 +4,7 @@ public class GradeCount {
 	public static void main(String[] args) {
 		
 		int mean = 0;
-		
+		int total = 0;
 		int counter = 0;
 		int maximum = 0;
 		
@@ -19,6 +19,7 @@ public class GradeCount {
 				maximum = grade;
 			}
 			
+			total = total + grade;
 			mean = mean + grade ;
 			counter++;
 			
@@ -27,6 +28,7 @@ public class GradeCount {
 			
 		}
 		System.out.println();
+		System.out.printf("The Total Grade is: %d%n", total);
 		System.out.printf("The mean is: %d%n", mean/counter);
 		System.out.printf("The maximum value is: %d%n", maximum);
 	}
