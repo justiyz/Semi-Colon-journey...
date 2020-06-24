@@ -132,7 +132,7 @@ public class Tutorial {
 		
 //USING THE SWITCH STATEMENT TO PRINT OUT GRADE SCORE...............
 		
-	/*	int size = 10;
+/*		int size = 10;
 		for (int i = 0; i < size; i++) {
 			for(int j = 0; j < size; j++) {
 				if (j <= i) {
@@ -141,23 +141,24 @@ public class Tutorial {
 				
 			}
 			System.out.println();
-		}
-	 */
+		} */
+	 
 		
 //PRINTING A PATTERN WITH ASTERISKS USING FOR STATEMENT1
 		
 		
 		
-	/*	for (int i = 10; i > 0; i--) {
+/*		for (int i = 10; i > 0; i--) {
 			for (int j = 1; j < i; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
 		} */
 		
+		
 //PRINTING A PATTERN WITH ASTERISKS USING FOR STATEMENT2
 		
-	/*	int size = 10;
+/*		int size = 10;
 		for (int i = 0; i < size; i++) {
 			for(int j = 0; j < size; j++) {
 				if (j <= i) {
@@ -196,14 +197,14 @@ public class Tutorial {
 //PRINTING KITE LOOKING ASTERISKS
 		
 		
-		int [] array = {87, 68, 94, 100, 83, 78, 85, 91, 76, 87};
+/*		int [] array = {87, 68, 94, 100, 83, 78, 85, 91, 76, 87};
 		int total = 0;
 		
 		for (int counter = 0; counter < array.length; counter++ ) {
 			total = total += array[counter];
 		}
 		System.out.printf("Total number of array elememts is : %d\n ", total);
-		
+		*/
 		
 		
 		
